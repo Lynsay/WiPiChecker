@@ -1,0 +1,8 @@
+auto lo
+ 
+iface lo inet loopback
+iface eth0 inet dhcp
+allow-hotplug wlan0
+iface wlan0 inet dhcp
+wpa-ssid "network name"
+wpa-psk #the_string_wpa_passphrase_generated
