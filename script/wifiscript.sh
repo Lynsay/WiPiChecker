@@ -1,7 +1,10 @@
 #!/bin/bash
-#Script to check wifi status
-#Written June 2014
-#Author Lynsay A. Shepherd
+#File: wifiscript.sh
+#Version: 1.0
+#Date: June 2014
+#Author: Lynsay A. Shepherd
+
+#Description: Script to check wifi status on the Raspberry Pi.  If the script cannot ping Google, the wifi interface has gone down.
  
 TESTIP=8.8.8.8
  
